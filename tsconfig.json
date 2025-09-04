@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "target": "es3",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "jsx": "react",
+    "strict": false,
+    "esModuleInterop": true,
+    "lib": [
+      "es5", "es6", "dom"
+    ]
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

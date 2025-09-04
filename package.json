@@ -1,0 +1,58 @@
+{
+  "name": "lunu-payment",
+  "version": "0.0.8",
+  "description": "Lunu Payment API Client for Browser",
+  "keywords": [
+    "lunu",
+    "payment",
+    "gateway",
+    "lunu payment gateway",
+    "cryptocurrency",
+    "bitcoin",
+    "ethereum",
+    "altcoin",
+    "altcoins",
+    "merchant",
+    "btc",
+    "eth",
+    "trx",
+    "bnb",
+    "lnx",
+    "xrp",
+    "usdc",
+    "usdt",
+    "pay",
+    "binance",
+    "binance pay"
+  ],
+  "homepage": "https://gitlab.lunu.io/widget/lunu-payment-widget-js",
+  "author": {
+    "name": "Lunu Solutions GmbH",
+    "email": "info@lunu.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.lunu.io/widget/lunu-payment-widget-js.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mn-utils": "file:./libs/mn-utils-0.0.246.tgz"
+  },
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js --clearCache && node ./node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.14",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "jest": "^26.6.2",
+    "jest-environment-jsdom-fourteen": "^1.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "ts-jest": "^20.0.7",
+    "typescript": "^2.4.2"
+  }
+}
